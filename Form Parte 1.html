@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-08">
+       <title> FORM </title>
+    <style>
+    form {
+                text-align: center;
+
+                max-width:400px;
+                margin: 20px;
+                padding: 20px;
+                border: 1px    solid #000 ;
+                border-radius: 8px;
+                background-color: mediumpurple;
+              }
+              label{
+                text-align: center;
+                display: inline-block;
+                font-weight: bold;
+                display: block;
+                margin-bottom: 5px;
+              }
+              input {
+                text-align: center;
+                width: 100%;
+                padding: auto;
+                margin-bottom: 10px;
+                border: 1px solid #000;
+                border-radius: 4px;
+        
+              }
+              button{
+                text-align: center;
+                background-color: black;
+                color: white;
+                padding: 8px 12px;
+                border: none;
+                border-radius: 4px; 
+                cursor: pointer;
+              }
+              button:hover {
+               background-color: black;
+              }
+
+               
+        </style>
+    </head>
+
+
+
+</html>
+
+
+<form action="url_destinazione" method="post"
+ <label for="Nome">Nome:</label>
+    <input type="Text" id="Nome" name="Nome" placeholder="Inserisci il tuo nome">
+ <label for="Cognome">Cognome:</label>
+    <input type="Text" id="Cognome" name="Cognome"  placeholder="Inserisci il tuo cognome">
+ <label for="Email">Email:</label>
+    <input type="Text" id="Email" name="Email" placeholder="Inserisci il tuo indirzzo email" required>
+
+<label for="Password">Password:</label>
+  <input form="Password" id="Password" name="Password" placeholder="Inserisci la tua password" required>
+
+  <label for="Genere">Selezione i tuo genere</label> 
+      <input type="radio" id="maschio" name="genere" value="maschio">
+          <label for="maschio">Maschio</label>
+      <input type="radio" id="femmina" name="femmina" value="femmina">
+           <label for="femmina">Femmina</label>
+  
+
+  <label for="Lingua"><br> Seleziona la tua lingua</label>
+    <select id="lingua" name="lingua"
+        <option value="Italiano">Italiano</option> 
+             <option value="Spagnolo">Spagnolo</option> 
+                <option value="Francese">Francese</option> 
+                   <option value="Inglese">Inglese</option> 
+                      <option value="Arabo">Arabo </option> 
+                        </select> <br>
+
+ 
+
+  <button type="submit">INVIA</button>
+
+</form
