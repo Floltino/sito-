@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: auto;
+}
+body {
+    background-color: mediumpurple; /* Dark green background */
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000; /* Shadow behind text */
+    font-family: 'Arial', sans-serif; /* Change font */
+    margin-bottom: 10px; /* Reduce space below h1 */
+}
+
+h2 {
+    margin-top: 0; /* Reduce space above h2 */
+}
+
+table {
+    border-spacing: 10px; /* Space between table cells */
+    width: 80%; /* Make table larger */
+}
+.background-image {
+    background-image: url('furryfandompic2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for better visibility */
+    padding: 20px; /* Add padding for better readability */
+    position: relative; /* Ensure positioning context */
+    z-index: 1; /* Ensure text is above the background */
+}
